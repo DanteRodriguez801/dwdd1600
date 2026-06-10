@@ -1,0 +1,176 @@
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    background-color: #111111;
+    color: #f2f2f2;
+}
+
+/* header stuff here */
+header {
+    background-color: #3b0000;
+    padding: 1rem 30px;
+}
+
+header span {
+    color: #ffffff;
+    font-family: "Cinzel", Georgia, serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* navigation stuff here */
+nav {
+    background-color: #000000;
+    border-bottom: 4px solid #ff6666;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 30px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    min-height: 48px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+nav li.active a {
+    background-color: #ff6666;
+    color: #000000;
+}
+
+nav li a:hover {
+    background-color: #d94c4c;
+    color: #000000;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 30px;
+    background-color: #1c1c1c;
+    text-align: left;
+}
+
+main h1 {
+    color: #ffffff;
+    font-family: "Cinzel", Georgia, serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+main h2 {
+    color: #ff6666;
+    font-family: "Cinzel", Georgia, serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: .3rem;
+}
+
+main p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #f2f2f2;
+    line-height: 1.6;
+}
+
+main ol {
+    padding: .75rem 30px;
+    margin-bottom: 1.5rem;
+    background-color: #2b2b2b;
+    border-left: 5px solid #ff6666;
+}
+
+main ol li {
+    line-height: 1.5;
+    margin-bottom: .4rem;
+}
+
+main ul {
+    list-style-type: square;
+    padding-left: 30px;
+    margin-bottom: 1.5rem;
+}
+
+main ul li {
+    line-height: 1.5;
+    margin-bottom: .5rem;
+}
+
+main dl {
+    background-color: #2b2b2b;
+    padding: 1rem;
+    border: 2px solid #ff6666;
+    border-radius: 10px;
+}
+
+main dl dt {
+    color: #ff6666;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #f2f2f2;
+    font-size: .95rem;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+
+main strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+main em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+main address {
+    font-style: normal;
+    background-color: #2b2b2b;
+    color: #ffffff;
+    padding: .75rem;
+    border-radius: 10px;
+    border: 2px solid #ff6666;
+    max-width: 320px;
+    line-height: 1.5;
+}
+
+main a {
+    color: #ff9999;
+    font-weight: 700;
+}
+
+main a:hover {
+    color: #ffffff;
+    background-color: #8b0000;
+}
+
+/* footer stuff here */
+footer {
+    background-color: #3b0000;
+    text-align: center;
+    padding: 1rem 30px;
+    margin-top: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .85rem;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
