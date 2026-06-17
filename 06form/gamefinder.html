@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+        content="Use the Horror Room Game Finder to choose a survival horror game based on your fear preferences, gameplay style, and experience level.">
+    <meta name="author" content="Dante Rodriguez">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="horror.css">
+
+    <title>The Horror Room Experience: Game Finder</title>
+</head>
+
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>The Horror Room Experience</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Information</a></li>
+            <li><a href="whatissurvivalhorror.html">What Is Survival Horror</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="gamefinder.html">Game Finder</a></li>
+        </ul>
+    </nav>
+
+    <!--Work in progress. May or may not be final version of gamefinder tab. Research more outside of class. May add more later.-->
+    <!-- start the page main -->
+    <main>
+        <h1>Find Your Next Nightmare</h1>
+        <p class="formIntro1">Not sure what survival horror game to play next? Fill out this form and choose the type of fear, gameplay,
+            and challenge level you enjoy most.</p>
+
+        <p class="formIntro2">We will send you game recommendations that match your interests.</p>
+
+        <form method="get" action="thanks.html" class="myForm">
+
+            <fieldset>
+                <legend>Survivor Information</legend>
+                <label>Full Name* <input type="text" name="fullname" required></label>
+                <label>Email* <input type="email" name="email" required></label>
+                <label>Phone* <input type="tel" name="phone" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Fear Profile</legend>
+                <p>What scares you the most?</p>
+                <label><input type="radio" name="fearstyle" value="psychological"> Psychological tension</label>
+                <label><input type="radio" name="fearstyle" value="creatures"> Monsters and creatures</label>
+                <label><input type="radio" name="fearstyle" value="chase"> Being chased</label>
+                <label><input type="radio" name="fearstyle" value="isolation"> Isolation and silence</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Gameplay Preferences</legend>
+                <p>What survival horror features do you enjoy?</p>
+                <label><input type="checkbox" name="puzzles" value="yes"> Puzzle solving</label>
+                <label><input type="checkbox" name="limitedammo" value="yes"> Limited ammo</label>
+                <label><input type="checkbox" name="exploration" value="yes"> Exploration</label>
+                <label><input type="checkbox" name="bossfights" value="yes"> Boss fights</label>
+                <label><input type="checkbox" name="darkatmosphere" value="yes"> Dark atmosphere</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Recommendation Details</legend>
+
+                <label>Survival Horror Experience
+                    <select name="experience">
+                        <option value="please-select">Please Select</option>
+                        <option value="new-survivor">New Survivor</option>
+                        <option value="casual-player">Casual Player</option>
+                        <option value="experienced-survivor">Experienced Survivor</option>
+                        <option value="nightmare-veteran">Nightmare Veteran</option>
+                    </select>
+                </label>
+
+                <label>Tell us what horror games you already enjoy
+                    <textarea name="favoritegames"
+                        placeholder="Example: Silent Hill 2, Resident Evil 4, Dead Space, Alan Wake..."></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="Find My Nightmare">
+
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 &bull; Dante Rodriguez &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
